@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="high ho">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,8 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -155,7 +152,9 @@
       <workItem from="1678280711574" duration="35043000" />
       <workItem from="1678785441734" duration="3368000" />
       <workItem from="1678956719385" duration="15160000" />
-      <workItem from="1679558245100" duration="523000" />
+      <workItem from="1679558245100" duration="6593000" />
+      <workItem from="1679579301654" duration="2078000" />
+      <workItem from="1679990964559" duration="6870000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
@@ -184,5 +183,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="high ho" />
     <option name="LAST_COMMIT_MESSAGE" value="high ho" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

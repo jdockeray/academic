@@ -1,8 +1,7 @@
 package dev.dockeray.leetcode;
 
 import java.util.ArrayList;
-import java.util.Stack;
-import java.util.stream.Collectors;
+import java.util.List;
 
 class TreeNode {
     int val;
@@ -19,37 +18,47 @@ class TreeNode {
 
 
 public class RootToLeaf {
-    public static void sumNumbers(TreeNode root) {
+    public static List<List<Integer>>  preOrder(TreeNode root, List<List<Integer>> stack, List<Integer> current){
+        current.add(root.val);
 
-        TreeNode current = root;
-        ArrayList<TreeNode> stack = new ArrayList<>();
-        while(current != null){
-            System.out.println(current.val);
-            while(current.left != null){
-                stack.add(current);
-                current = current.left;
-                System.out.println(current.val);
-            }
-
-            if(current.right == null){
-                while(!stack.isEmpty() && current.right == null){
-                    current = stack.remove(stack.size()-1);
-                }
-                if(stack.isEmpty() && current.right == null){
-                    current = null;
-                }
-                if(current != null) {
-                    current = current.right;
-                }
-            } else {
-                // keep on diving
-                current = current.right;
-            }
+        if(root.left != null){
+            preOrder(root.left, stack, new ArrayList<>(current));
         }
+        if(root.right != null){
+            preOrder(root.right, stack, new ArrayList<>(current));
+        }
+        if(root.left == null && root.right == null) {
+            stack.add(new ArrayList<>(current));
+        }
+
+        return stack;
     }
 
+    public static int sumNumbers(TreeNode root) {
+        List<List<Integer>> stack = new ArrayList<>();
+        var visited = preOrder(root, stack, new ArrayList<>());
+        System.out.println(visited);
+        var numbers = visited.stream().map(list -> {
+            StringBuilder number = new StringBuilder();
+
+            for (Integer str : list) {
+                number.append(str);
+            }
+            return Integer.parseInt(number.toString());
+        }).toList();
+        System.out.println(numbers);
+        var sum = 0;
+
+        for(Integer n:numbers){
+            sum += n;
+        }
+
+        return sum;
+    };
+
     public static void main(String[] args) {
-        var root = new TreeNode(1, new TreeNode(2, new TreeNode(22), new TreeNode(23)), new TreeNode(3));
-        sumNumbers(root);
+        var root = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+//        var root = new TreeNode(1, new TreeNode(2), new TreeNode(3, new TreeNode(4), null));
+        System.out.println(sumNumbers(root));
     }
 }
