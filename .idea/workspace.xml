@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="high ho">
+    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="RootToLeaf">
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" afterDir="false" />
     </list>
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,12 +56,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.dockeray.leetcode" />
       <recent name="dev.dockeray.datastructures.ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RootToLeaf">
-    <configuration name="RootToLeaf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.RootToLeaf" />
+  <component name="RunManager" selected="JUnit.SymmetricTreeTest">
+    <configuration name="SymmetricTreeTest$InOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
@@ -66,78 +69,83 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$InOrder" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hexToBase64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.cryptopals.hexToBase64" />
+    <configuration name="SymmetricTreeTest$InOrder.left_and_right_are_single_child_and_symmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.cryptopals.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTest.isDistinct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.datastructures.ch1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.datastructures.ch1" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.datastructures.ch1.SimpleTest" />
-      <option name="METHOD_NAME" value="isDistinct" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$InOrder" />
+      <option name="METHOD_NAME" value="left_and_right_are_single_child_and_symmetric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTest.isOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest$InOrder.left_has_single_right_has_siblings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.datastructures.ch1.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.datastructures.ch1" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.datastructures.ch1.SimpleTest" />
-      <option name="METHOD_NAME" value="isOdd" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$InOrder" />
+      <option name="METHOD_NAME" value="left_has_single_right_has_siblings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTest.oddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest$isSymmetric.left_is_null_and_right_is_not" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.datastructures.ch1.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.datastructures.ch1" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.datastructures.ch1.SimpleTest" />
-      <option name="METHOD_NAME" value="oddProduct" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$isSymmetric" />
+      <option name="METHOD_NAME" value="left_is_null_and_right_is_not" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymmetricTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RootToLeaf" />
-        <item itemvalue="Application.hexToBase64" />
-        <item itemvalue="JUnit.SimpleTest.isDistinct" />
-        <item itemvalue="JUnit.SimpleTest.oddProduct" />
-        <item itemvalue="JUnit.SimpleTest.isOdd" />
+        <item itemvalue="JUnit.SymmetricTreeTest" />
+        <item itemvalue="JUnit.SymmetricTreeTest$InOrder" />
+        <item itemvalue="JUnit.SymmetricTreeTest$InOrder.left_and_right_are_single_child_and_symmetric" />
+        <item itemvalue="JUnit.SymmetricTreeTest$InOrder.left_has_single_right_has_siblings" />
+        <item itemvalue="JUnit.SymmetricTreeTest$isSymmetric.left_is_null_and_right_is_not" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +162,7 @@
       <workItem from="1678956719385" duration="15160000" />
       <workItem from="1679558245100" duration="6593000" />
       <workItem from="1679579301654" duration="2078000" />
-      <workItem from="1679990964559" duration="6870000" />
+      <workItem from="1679990964559" duration="15414000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
@@ -163,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678956894049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RootToLeaf">
+      <created>1680180064328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680180064328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +197,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="high ho" />
-    <option name="LAST_COMMIT_MESSAGE" value="high ho" />
+    <MESSAGE value="RootToLeaf" />
+    <option name="LAST_COMMIT_MESSAGE" value="RootToLeaf" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
