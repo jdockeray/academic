@@ -2,7 +2,6 @@ package dev.dockeray.leetcode.trees;
 
 import org.junit.jupiter.api.Test;
 
-import static dev.dockeray.leetcode.trees.CompleteTree.isCompleteTree;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CompleteTreeTest {
@@ -12,7 +11,9 @@ class CompleteTreeTest {
         var left = new TreeNode(2, new TreeNode(4), new TreeNode(5));
         var right = new TreeNode(3, new TreeNode(6), null);
         var tree = new TreeNode(1, left, right);
-        assertTrue(isCompleteTree(tree));
+
+        var t = new CompleteTree();
+        assertTrue(t.isCompleteTree(tree));
     }
 
     @Test
@@ -21,7 +22,8 @@ class CompleteTreeTest {
         var right = new TreeNode(3, new TreeNode(7), new TreeNode(8));
 
         var tree = new TreeNode(1, left, right);
-        assertTrue(isCompleteTree(tree));
+        var t = new CompleteTree();
+        assertFalse(t.isCompleteTree(tree));
     }
 
     @Test
@@ -29,12 +31,16 @@ class CompleteTreeTest {
         var left = new TreeNode(2, new TreeNode(4), new TreeNode(5));
         var right = new TreeNode(3, null, new TreeNode(6));
         var tree = new TreeNode(1, left, right);
-        assertFalse(isCompleteTree(tree));
+        var t = new CompleteTree();
+
+        assertFalse(t.isCompleteTree(tree));
     }
 
     @Test
     void is_complete_as_children_null() {
         var tree = new TreeNode(1);
-        assertTrue(isCompleteTree(tree));
+        var t = new CompleteTree();
+
+        assertTrue(t.isCompleteTree(tree));
     }
 }

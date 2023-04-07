@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="moved">
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" afterDir="false" />
+    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="complete tree pre order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/RootToLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/SymmetricTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <recent name="dev.dockeray.datastructures.ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child">
+  <component name="RunManager" selected="JUnit.CompleteTreeTest">
     <configuration name="CompleteTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
@@ -111,6 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompleteTreeTest.is_complete_as_all_left_present_and_right_side_missing_right_child" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="METHOD_NAME" value="is_complete_as_all_left_present_and_right_side_missing_right_child" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompleteTreeTest.is_complete_as_children_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
@@ -127,28 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.SymmetricTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompleteTreeTest" />
+        <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_right_side_missing_right_child" />
         <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child" />
         <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_children_null" />
-        <item itemvalue="JUnit.CompleteTreeTest" />
         <item itemvalue="JUnit.CompleteTreeTest.all_left_children_are_present_right_leaf_is_missing" />
-        <item itemvalue="JUnit.SymmetricTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +162,7 @@
       <workItem from="1678956719385" duration="15160000" />
       <workItem from="1679558245100" duration="6593000" />
       <workItem from="1679579301654" duration="2078000" />
-      <workItem from="1679990964559" duration="19698000" />
+      <workItem from="1679990964559" duration="21130000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
@@ -181,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680180064328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="moved">
+      <created>1680854524825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680854524825</updated>
+    </task>
+    <task id="LOCAL-00004" summary="complete tree pre order">
+      <created>1680854594088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680854594088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +213,8 @@
     <MESSAGE value="high ho" />
     <MESSAGE value="RootToLeaf" />
     <MESSAGE value="moved" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved" />
+    <MESSAGE value="complete tree pre order" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete tree pre order" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
