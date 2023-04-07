@@ -1,6 +1,4 @@
-package dev.dockeray.leetcode;
-
-import java.util.stream.Stream;
+package dev.dockeray.leetcode.trees;
 
 class SymmetricTree {
 

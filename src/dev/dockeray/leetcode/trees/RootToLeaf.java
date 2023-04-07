@@ -1,4 +1,4 @@
-package dev.dockeray.leetcode;
+package dev.dockeray.leetcode.trees;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +44,7 @@ public class RootToLeaf {
         }
 
         return sum;
-    };
+    }
 
     public static void main(String[] args) {
         var root = new TreeNode(1, new TreeNode(2), new TreeNode(3));

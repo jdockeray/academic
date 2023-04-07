@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="RootToLeaf">
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/TreeNode.java" afterDir="false" />
+    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="moved">
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/RootToLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/SymmetricTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,69 +58,70 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.dockeray.leetcode.trees" />
       <recent name="dev.dockeray.leetcode" />
       <recent name="dev.dockeray.datastructures.ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SymmetricTreeTest">
-    <configuration name="SymmetricTreeTest$InOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child">
+    <configuration name="CompleteTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$InOrder" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTreeTest$InOrder.left_and_right_are_single_child_and_symmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteTreeTest.all_left_children_are_present_right_leaf_is_missing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$InOrder" />
-      <option name="METHOD_NAME" value="left_and_right_are_single_child_and_symmetric" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="METHOD_NAME" value="all_left_children_are_present_right_leaf_is_missing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTreeTest$InOrder.left_has_single_right_has_siblings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$InOrder" />
-      <option name="METHOD_NAME" value="left_has_single_right_has_siblings" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="METHOD_NAME" value="is_complete_as_all_left_present_and_left_side_missing_right_child" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTreeTest$isSymmetric.left_is_null_and_right_is_not" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteTreeTest.is_complete_as_children_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest$isSymmetric" />
-      <option name="METHOD_NAME" value="left_is_null_and_right_is_not" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="METHOD_NAME" value="is_complete_as_children_null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,12 +131,12 @@
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.SymmetricTreeTest" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.SymmetricTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child" />
+        <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_children_null" />
+        <item itemvalue="JUnit.CompleteTreeTest" />
+        <item itemvalue="JUnit.CompleteTreeTest.all_left_children_are_present_right_leaf_is_missing" />
         <item itemvalue="JUnit.SymmetricTreeTest" />
-        <item itemvalue="JUnit.SymmetricTreeTest$InOrder" />
-        <item itemvalue="JUnit.SymmetricTreeTest$InOrder.left_and_right_are_single_child_and_symmetric" />
-        <item itemvalue="JUnit.SymmetricTreeTest$InOrder.left_has_single_right_has_siblings" />
-        <item itemvalue="JUnit.SymmetricTreeTest$isSymmetric.left_is_null_and_right_is_not" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,7 @@
       <workItem from="1678956719385" duration="15160000" />
       <workItem from="1679558245100" duration="6593000" />
       <workItem from="1679579301654" duration="2078000" />
-      <workItem from="1679990964559" duration="15414000" />
+      <workItem from="1679990964559" duration="19698000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
@@ -198,7 +201,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="high ho" />
     <MESSAGE value="RootToLeaf" />
-    <option name="LAST_COMMIT_MESSAGE" value="RootToLeaf" />
+    <MESSAGE value="moved" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

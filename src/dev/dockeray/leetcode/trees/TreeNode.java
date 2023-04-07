@@ -1,4 +1,4 @@
-package dev.dockeray.leetcode;
+package dev.dockeray.leetcode.trees;
 
 class TreeNode {
     int val;
