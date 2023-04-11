@@ -4,7 +4,6 @@
     <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="complete tree pre order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
