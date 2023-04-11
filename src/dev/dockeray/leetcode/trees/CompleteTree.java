@@ -1,27 +1,57 @@
 package dev.dockeray.leetcode.trees;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class CompleteTree {
-    int empty = 0;
+
     public boolean isCompleteTree(TreeNode root) {
-        if(root.left == null && root.right == null){
-            return true;
-        }
-        if(root.left == null){
-            return false;
-        }
-        if(root.right == null && empty == 0){
-            empty++;
-        }
+        List<TreeNode> level = new ArrayList<>();
+        boolean valid = true;
 
-       var checkLeft = isCompleteTree(root.left);
+        level.add(root);
+        var nullPresent = false;
+        while (!level.isEmpty() && valid) {
 
+            var vals = level.stream().flatMap(l -> {
+                List<Boolean> next = new ArrayList<>();
+                next.add(l.left != null);
+                next.add(l.right != null);
+                return next.stream();
+            }).toList();
 
-        if(checkLeft){
-            if(root.right != null && empty == 0){
-                return isCompleteTree(root.right);
+            var isLastLevel = level.stream().filter(t -> t.right != null || t.left != null).toList().size() == 0;
+            for (Boolean current : vals) {
+                if (nullPresent && current) {
+
+                    valid = false;
+
+                }
+//                if(!current && !isLastLevel){
+//                    valid = false;
+//                }
+
+                if (!current) {
+                    nullPresent = true;
+                }
             }
-            return root.right == null && empty <= 1;
+
+            if (!isLastLevel) {
+                level = level.stream().flatMap(l -> {
+                    List<TreeNode> next = new ArrayList<>();
+                    if (l.left != null) {
+                        next.add(l.left);
+                    }
+                    if (l.right != null) {
+                        next.add(l.right);
+                    }
+                    return next.stream();
+                }).toList();
+            } else {
+                level = new ArrayList<>();
+            }
         }
-        return false;
+        return valid;
     }
 }

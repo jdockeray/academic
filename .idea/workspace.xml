@@ -75,38 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteTreeTest.all_left_children_are_present_right_leaf_is_missing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
-      <option name="METHOD_NAME" value="all_left_children_are_present_right_leaf_is_missing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
-      <option name="METHOD_NAME" value="is_complete_as_all_left_present_and_left_side_missing_right_child" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompleteTreeTest.is_complete_as_all_left_present_and_right_side_missing_right_child" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
@@ -123,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteTreeTest.is_complete_as_children_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteTreeTest.is_not_complete_as_all_left_present_and_left_side_missing_right_child" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +101,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
       <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
-      <option name="METHOD_NAME" value="is_complete_as_children_null" />
+      <option name="METHOD_NAME" value="is_not_complete_as_all_left_present_and_left_side_missing_right_child" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompleteTreeTest.is_not_complete_as_left_missing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="METHOD_NAME" value="is_not_complete_as_left_missing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompleteTreeTest.is_not_complete_as_lowest_child_missing_sibling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="METHOD_NAME" value="is_not_complete_as_lowest_child_missing_sibling" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,9 +143,9 @@
       <list>
         <item itemvalue="JUnit.CompleteTreeTest" />
         <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_right_side_missing_right_child" />
-        <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_left_side_missing_right_child" />
-        <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_children_null" />
-        <item itemvalue="JUnit.CompleteTreeTest.all_left_children_are_present_right_leaf_is_missing" />
+        <item itemvalue="JUnit.CompleteTreeTest.is_not_complete_as_lowest_child_missing_sibling" />
+        <item itemvalue="JUnit.CompleteTreeTest.is_not_complete_as_left_missing" />
+        <item itemvalue="JUnit.CompleteTreeTest.is_not_complete_as_all_left_present_and_left_side_missing_right_child" />
       </list>
     </recent_temporary>
   </component>

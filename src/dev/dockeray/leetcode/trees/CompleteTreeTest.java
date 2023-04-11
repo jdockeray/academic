@@ -36,6 +36,7 @@ class CompleteTreeTest {
         assertFalse(t.isCompleteTree(tree));
     }
 
+
     @Test
     void is_complete_as_children_null() {
         var tree = new TreeNode(1);
