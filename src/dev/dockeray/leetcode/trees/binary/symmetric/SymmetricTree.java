@@ -1,4 +1,6 @@
-package dev.dockeray.leetcode.trees;
+package dev.dockeray.leetcode.trees.binary.symmetric;
+
+import dev.dockeray.leetcode.trees.TreeNode;
 
 class SymmetricTree {
 

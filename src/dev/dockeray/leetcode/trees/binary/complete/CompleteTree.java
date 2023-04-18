@@ -1,4 +1,4 @@
-package dev.dockeray.leetcode.trees.complete;
+package dev.dockeray.leetcode.trees.binary.complete;
 
 import dev.dockeray.leetcode.trees.TreeNode;
 

@@ -1,4 +1,4 @@
-package dev.dockeray.leetcode.trees.arraytree;
+package dev.dockeray.leetcode.trees.binary.fromList.poio;
 
 import dev.dockeray.leetcode.trees.TreeNode;
 

@@ -1,5 +1,6 @@
-package dev.dockeray.leetcode.trees;
+package dev.dockeray.leetcode.trees.binary.symmetric;
 
+import dev.dockeray.leetcode.trees.TreeNode;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 

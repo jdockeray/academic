@@ -1,4 +1,6 @@
-package dev.dockeray.leetcode.trees;
+package dev.dockeray.leetcode.trees.binary.rootToLeaf;
+
+import dev.dockeray.leetcode.trees.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,5 @@
-package dev.dockeray.leetcode;
+package dev.dockeray.leetcode.lists.randomNode;
 
-import java.lang.Math;
 import java.util.Random;
 
 
