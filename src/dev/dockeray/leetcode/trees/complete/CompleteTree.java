@@ -1,8 +1,9 @@
-package dev.dockeray.leetcode.trees;
+package dev.dockeray.leetcode.trees.complete;
+
+import dev.dockeray.leetcode.trees.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class CompleteTree {
 

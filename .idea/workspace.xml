@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="complete tree pre order">
+    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/arraytree/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/arraytree/BuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/arraytree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/complete/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/complete/CompleteTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/CompleteTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/complete/CompleteTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +61,38 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dev.dockeray.leetcode.trees" />
+      <recent name="dev.dockeray.leetcode.trees.arraytree" />
       <recent name="dev.dockeray.leetcode" />
       <recent name="dev.dockeray.datastructures.ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompleteTreeTest">
+  <component name="RunManager" selected="JUnit.BuilderTest.buildTree">
+    <configuration name="BuilderTest.buildTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.arraytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.arraytree" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.arraytree.BuilderTest" />
+      <option name="METHOD_NAME" value="buildTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompleteTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.complete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.Complete" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.complete.CompleteTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,19 +102,19 @@
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.complete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.Complete" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.complete.CompleteTreeTest" />
       <option name="METHOD_NAME" value="is_complete_as_all_left_present_and_right_side_missing_right_child" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteTreeTest.is_not_complete_as_all_left_present_and_left_side_missing_right_child" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.toArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
-      <option name="METHOD_NAME" value="is_not_complete_as_all_left_present_and_left_side_missing_right_child" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.TreeNodeTest" />
+      <option name="METHOD_NAME" value="toArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteTreeTest.is_not_complete_as_left_missing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest.toArrayMoreChildrenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
@@ -115,24 +139,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
-      <option name="METHOD_NAME" value="is_not_complete_as_left_missing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompleteTreeTest.is_not_complete_as_lowest_child_missing_sibling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.CompleteTreeTest" />
-      <option name="METHOD_NAME" value="is_not_complete_as_lowest_child_missing_sibling" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.TreeNodeTest" />
+      <option name="METHOD_NAME" value="toArrayMoreChildrenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuilderTest.buildTree" />
+        <item itemvalue="JUnit.TreeNodeTest.toArrayMoreChildrenTest" />
+        <item itemvalue="JUnit.TreeNodeTest.toArray" />
         <item itemvalue="JUnit.CompleteTreeTest" />
         <item itemvalue="JUnit.CompleteTreeTest.is_complete_as_all_left_present_and_right_side_missing_right_child" />
-        <item itemvalue="JUnit.CompleteTreeTest.is_not_complete_as_lowest_child_missing_sibling" />
-        <item itemvalue="JUnit.CompleteTreeTest.is_not_complete_as_left_missing" />
-        <item itemvalue="JUnit.CompleteTreeTest.is_not_complete_as_all_left_present_and_left_side_missing_right_child" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +170,8 @@
       <workItem from="1679558245100" duration="6593000" />
       <workItem from="1679579301654" duration="2078000" />
       <workItem from="1679990964559" duration="21130000" />
+      <workItem from="1681455807612" duration="121000" />
+      <workItem from="1681455958814" duration="9888000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
@@ -214,6 +224,16 @@
     <MESSAGE value="moved" />
     <MESSAGE value="complete tree pre order" />
     <option name="LAST_COMMIT_MESSAGE" value="complete tree pre order" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="29" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

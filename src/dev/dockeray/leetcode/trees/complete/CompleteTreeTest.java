@@ -1,5 +1,6 @@
-package dev.dockeray.leetcode.trees;
+package dev.dockeray.leetcode.trees.complete;
 
+import dev.dockeray.leetcode.trees.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
