@@ -1,4 +1,4 @@
-package dev.dockeray.leetcode.lists.randomNode;
+package dev.dockeray.leetcode.arrays.random;
 
 import java.util.Random;
 

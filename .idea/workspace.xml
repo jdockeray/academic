@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/lists/randomNode/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/rootToLeaf/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/symmetric/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/duplicate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/duplicate/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/duplicate/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/rootToLeaf/RootToLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/symmetric/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/symmetric/SymmetricTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/arraytree/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/arraytree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/arraytree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/complete/CompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete/CompleteTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/complete/CompleteTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete/CompleteTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/complete/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/datastructures/ch1/Flower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/datastructures/ch1/InputAllBaseTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/datastructures/ch1/Simple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/datastructures/ch1/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/datastructures/ch1/StringSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/lists/randomNode/LinkedListRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/random/LinkedListRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/lists/randomNode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/random/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,58 +62,77 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/random" />
       <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete" />
       <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.dockeray.leetcode.arrays.duplicate" />
+      <recent name="dev.dockeray.leetcode.trees.binary.uniqueVersions" />
       <recent name="dev.dockeray.leetcode.trees" />
       <recent name="dev.dockeray.leetcode.trees.arraytree" />
       <recent name="dev.dockeray.leetcode" />
-      <recent name="dev.dockeray.datastructures.ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SymmetricTreeTest">
-    <configuration name="BuilderTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="SolutionTest$containsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.binary.fromList.poio.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.duplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.binary.fromList.poio" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.binary.fromList.poio.BuilderTest" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest$containsDuplicateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest$containsDuplicateTest.true_when_contains_duplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.arraytree.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.duplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.arraytree" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.arraytree.BuilderTest" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest$containsDuplicateTest" />
+      <option name="METHOD_NAME" value="true_when_contains_duplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.duplicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.duplicate" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.numTrees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.binary.complete.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.trees.binary.uniqueVersions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.binary.complete" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.binary.complete.CompleteTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees.binary.uniqueVersions" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.binary.uniqueVersions.SolutionTest" />
+      <option name="METHOD_NAME" value="numTrees" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,28 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.TreeNodeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest$containsDuplicateTest.true_when_contains_duplicates" />
+        <item itemvalue="JUnit.SolutionTest$containsDuplicateTest" />
+        <item itemvalue="JUnit.SolutionTest.numTrees" />
         <item itemvalue="JUnit.SymmetricTreeTest" />
-        <item itemvalue="JUnit.CompleteTreeTest" />
-        <item itemvalue="JUnit.BuilderTest (1)" />
-        <item itemvalue="JUnit.TreeNodeTest" />
-        <item itemvalue="JUnit.BuilderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,7 @@
       <workItem from="1679579301654" duration="2078000" />
       <workItem from="1679990964559" duration="21130000" />
       <workItem from="1681455807612" duration="121000" />
-      <workItem from="1681455958814" duration="21755000" />
+      <workItem from="1681455958814" duration="27551000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
