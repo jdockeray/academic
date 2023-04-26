@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/validAnagram/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/validAnagram/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/validAnagram/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +59,14 @@
       <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.dockeray.leetcode.arrays.twoSum" />
       <recent name="dev.dockeray.leetcode.arrays.validAnagram" />
       <recent name="dev.dockeray.leetcode.arrays.duplicate" />
       <recent name="dev.dockeray.leetcode.trees.binary.uniqueVersions" />
       <recent name="dev.dockeray.leetcode.trees" />
-      <recent name="dev.dockeray.leetcode.trees.arraytree" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest (2)">
     <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
@@ -83,17 +82,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest$containsDuplicateTest.true_when_contains_duplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.duplicate.*" />
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.twoSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest$containsDuplicateTest" />
-      <option name="METHOD_NAME" value="true_when_contains_duplicates" />
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.twoSum" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.twoSum.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest$twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.twoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.twoSum.SolutionTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.twoSum.SolutionTest$twoSum" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest$twoSum.finds_an_even" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.twoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.twoSum.SolutionTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.twoSum.SolutionTest$twoSum" />
+      <option name="METHOD_NAME" value="finds_an_even" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,44 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest$validAnagram.returns_true_when_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.validAnagram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.validAnagram.SolutionTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.validAnagram.SolutionTest$validAnagram" />
-      <option name="METHOD_NAME" value="returns_true_when_valid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.duplicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.duplicate" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (2)" />
+        <item itemvalue="JUnit.SolutionTest$twoSum.finds_an_even" />
+        <item itemvalue="JUnit.SolutionTest$twoSum" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest$validAnagram.returns_false_when_invalid" />
-        <item itemvalue="JUnit.SolutionTest$validAnagram.returns_true_when_valid" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest$containsDuplicateTest.true_when_contains_duplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,7 @@
       <workItem from="1679579301654" duration="2078000" />
       <workItem from="1679990964559" duration="21130000" />
       <workItem from="1681455807612" duration="121000" />
-      <workItem from="1681455958814" duration="30288000" />
+      <workItem from="1681455958814" duration="35140000" />
     </task>
     <task id="LOCAL-00001" summary="high ho">
       <created>1678956894049</created>
@@ -224,6 +222,27 @@
     <MESSAGE value="moved" />
     <MESSAGE value="complete tree pre order" />
     <option name="LAST_COMMIT_MESSAGE" value="complete tree pre order" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/Solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
