@@ -4,49 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="idea files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/groupAnagrams/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/groupAnagrams/SolutionTest.java" afterDir="false" />
+    <list default="true" id="f32a9cb3-4250-40b5-a468-760803aa7cd0" name="Changes" comment="ignore idea">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/academic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/cryptopals/hexToBase64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/cryptopals/hexToBase64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/duplicate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/duplicate/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/duplicate/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/duplicate/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/duplicate/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/duplicate/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/random/LinkedListRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/random/LinkedListRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/random/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/random/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/twoSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/twoSum/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/twoSum/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/validAnagram/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/validAnagram/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/validAnagram/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/validAnagram/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/validAnagram/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/validAnagram/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/trees/TreeNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete/CompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/complete/CompleteTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete/CompleteTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/trees/binary/complete/CompleteTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/complete/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/trees/binary/fromList/poio/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/fromList/poio/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/fromList/poio/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/rootToLeaf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/rootToLeaf/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/rootToLeaf/RootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/rootToLeaf/RootToLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/symmetric/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/symmetric/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/symmetric/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/trees/binary/symmetric/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/symmetric/SymmetricTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/trees/binary/symmetric/SymmetricTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,224 +39,61 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2MjUuU6vkyZ4fpPzEt8dML5iUeL" />
+  <component name="ProjectId" id="2P15nvJBdaFWrHwuBjhBtZjpYpf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18 (2)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jamesdockeray/Projects/java_datastructures/src/test/java/dev/dockeray&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/dev/dockeray" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/arrays/random" />
-      <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/complete" />
-      <recent name="$PROJECT_DIR$/src/dev/dockeray/leetcode/trees/binary/fromList/poio" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="dev.dockeray.leetcode.arrays.twoSum" />
-      <recent name="dev.dockeray.leetcode.arrays.validAnagram" />
-      <recent name="dev.dockeray.leetcode.arrays.duplicate" />
-      <recent name="dev.dockeray.leetcode.trees.binary.uniqueVersions" />
-      <recent name="dev.dockeray.leetcode.trees" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn --version" />
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.validAnagram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.validAnagram" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.validAnagram.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest$containsDuplicateTest.true_when_contains_duplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.duplicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.duplicate.SolutionTest$containsDuplicateTest" />
-      <option name="METHOD_NAME" value="true_when_contains_duplicates" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.groupAnagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.trees" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.trees.TreeNodeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validAnagram.returns_false_when_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_datastructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.dockeray.leetcode.arrays.validAnagram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.validAnagram.SolutionTest" />
-      <option name="MAIN_CLASS_NAME" value="main.java.dockeray.leetcode.arrays.validAnagram.SolutionTest.validAnagram" />
-      <option name="METHOD_NAME" value="returns_false_when_invalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest$containsDuplicateTest.true_when_contains_duplicates" />
-        <item itemvalue="JUnit.TreeNodeTest" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="631e53c1-8994-42ab-8d10-f13d5f94de1f" name="Changes" comment="" />
-      <created>1678280710459</created>
+      <changelist id="f32a9cb3-4250-40b5-a468-760803aa7cd0" name="Changes" comment="" />
+      <created>1682611918016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678280710459</updated>
-      <workItem from="1678280711574" duration="35043000" />
-      <workItem from="1678785441734" duration="3368000" />
-      <workItem from="1678956719385" duration="15160000" />
-      <workItem from="1679558245100" duration="6593000" />
-      <workItem from="1679579301654" duration="2078000" />
-      <workItem from="1679990964559" duration="21130000" />
-      <workItem from="1681455807612" duration="121000" />
-      <workItem from="1681455958814" duration="41192000" />
-      <workItem from="1682589717139" duration="74000" />
-      <workItem from="1682589794081" duration="1254000" />
-      <workItem from="1682591053353" duration="857000" />
-      <workItem from="1682599741296" duration="2571000" />
-      <workItem from="1682606187923" duration="2530000" />
-      <workItem from="1682608726606" duration="1845000" />
-      <workItem from="1682611392834" duration="183000" />
+      <updated>1682611918016</updated>
+      <workItem from="1682611919104" duration="239000" />
     </task>
-    <task id="LOCAL-00001" summary="high ho">
-      <created>1678956894049</created>
+    <task id="LOCAL-00001" summary="ignore idea">
+      <created>1682612079226</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1678956894049</updated>
+      <updated>1682612079226</updated>
     </task>
-    <task id="LOCAL-00002" summary="RootToLeaf">
-      <created>1680180064328</created>
+    <task id="LOCAL-00002" summary="ignore idea">
+      <created>1682612152163</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1680180064328</updated>
+      <updated>1682612152163</updated>
     </task>
-    <task id="LOCAL-00003" summary="moved">
-      <created>1680854524825</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1680854524825</updated>
-    </task>
-    <task id="LOCAL-00004" summary="complete tree pre order">
-      <created>1680854594088</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1680854594088</updated>
-    </task>
-    <task id="LOCAL-00005" summary="maven">
-      <created>1682591449789</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1682591449789</updated>
-    </task>
-    <task id="LOCAL-00006" summary="idea files">
-      <created>1682591474593</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1682591474593</updated>
-    </task>
-    <task id="LOCAL-00007" summary="idea files">
-      <created>1682591484774</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1682591484774</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,16 +111,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="high ho" />
-    <MESSAGE value="RootToLeaf" />
-    <MESSAGE value="moved" />
-    <MESSAGE value="complete tree pre order" />
-    <MESSAGE value="maven" />
-    <MESSAGE value="idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea files" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="ignore idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore idea" />
   </component>
 </project>
