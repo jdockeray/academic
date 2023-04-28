@@ -1,27 +1,22 @@
 package dev.dockeray.leetcode.arrays.groupAnagrams;
 
 
-import java.util.List;
+import java.util.*;
 
 public class Solution {
-    public static boolean isAnagram(String str1, String str2) {
-        if (str1.length() != str2.length()) {
-            return false;
-        }
-        int[] counts = new int[26];
-        for (int i = 0; i < str1.length(); i++) {
-            counts[str1.charAt(i) - 'a']++;
-            counts[str2.charAt(i) - 'a']--;
-        }
-        for (int count : counts) {
-            if (count != 0) {
-                return false;
-            }
-        }
-        return true;
-    }
+
     public List<List<String>> groupAnagrams(String[] strs) {
-        return null;
+        Map<String, List<String>> map = new HashMap<>();
+
+       for(String str:strs){
+           char[] charArray = str.toCharArray();
+           Arrays.sort(charArray);
+           String key = new String(charArray);
+           map.putIfAbsent(key, new ArrayList<>());
+           map.get(key).add(str);
+       }
+
+       return new ArrayList<>(map.values());
     }
 
 
