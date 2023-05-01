@@ -4,7 +4,6 @@ package dev.dockeray.leetcode.arrays.groupAnagrams;
 import java.util.*;
 
 public class Solution {
-
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
 
@@ -18,7 +17,4 @@ public class Solution {
 
        return new ArrayList<>(map.values());
     }
-
-
-
 }

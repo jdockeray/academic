@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f32a9cb3-4250-40b5-a468-760803aa7cd0" name="Changes" comment="ignore idea">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f32a9cb3-4250-40b5-a468-760803aa7cd0" name="Changes" comment="group anagrams">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/topKFrequentElements/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/topKFrequentElements/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/groupAnagrams/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/groupAnagrams/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,13 +50,104 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/jamesdockeray/Projects/academic",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.dockeray.leetcode.arrays.topKFrequentElements" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.topKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest$groupAnagrams.groups_anagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.groupAnagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams.SolutionTest" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams.SolutionTest$groupAnagrams" />
+      <option name="METHOD_NAME" value="groups_anagrams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.groupAnagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.handles_negative_integers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.topKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements.SolutionTest" />
+      <option name="METHOD_NAME" value="handles_negative_integers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.returns_top_two_elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.topKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements.SolutionTest" />
+      <option name="METHOD_NAME" value="returns_top_two_elements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="java_datastructures" />
       <method v="2">
@@ -60,6 +161,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.handles_negative_integers" />
+        <item itemvalue="JUnit.SolutionTest.returns_top_two_elements" />
+        <item itemvalue="JUnit.SolutionTest$groupAnagrams.groups_anagrams" />
+        <item itemvalue="JUnit.SolutionTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,6 +182,7 @@
       <workItem from="1682611919104" duration="239000" />
       <workItem from="1682612161199" duration="86000" />
       <workItem from="1682612250163" duration="253000" />
+      <workItem from="1682612986289" duration="10254000" />
     </task>
     <task id="LOCAL-00001" summary="ignore idea">
       <created>1682612079226</created>
@@ -94,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682612230971</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="group anagrams">
+      <created>1682669833900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682669833900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +231,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore idea" />
+    <MESSAGE value="group anagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="group anagrams" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/topKFrequentElements/Solution.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
