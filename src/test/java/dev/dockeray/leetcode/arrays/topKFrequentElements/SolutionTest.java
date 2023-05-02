@@ -38,6 +38,17 @@ class SolutionTest {
 
         assertArrayEquals(expected, result);
     }
+
+    @Test
+    void handles_one_element(){
+        var input = new int[]{1};
+        var sol = new Solution();
+
+        var result = sol.topKFrequent(input, 1);
+        var expected = new int[]{1};
+
+        assertArrayEquals(expected, result);
+    }
 }
 
 
