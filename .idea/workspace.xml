@@ -7,7 +7,6 @@
     <list default="true" id="f32a9cb3-4250-40b5-a468-760803aa7cd0" name="Changes" comment="k frequent elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/topKFrequentElements/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/topKFrequentElements/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/topKFrequentElements/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/topKFrequentElements/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,22 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest$groupAnagrams.groups_anagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="academic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.groupAnagrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams.SolutionTest" />
-      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.groupAnagrams.SolutionTest$groupAnagrams" />
-      <option name="METHOD_NAME" value="groups_anagrams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest.handles_negative_integers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="academic" />
       <extension name="coverage">
@@ -127,6 +110,22 @@
       <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements" />
       <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements.SolutionTest" />
       <option name="METHOD_NAME" value="handles_one_element" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.returns_top_three_elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="academic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.dockeray.leetcode.arrays.topKFrequentElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements" />
+      <option name="MAIN_CLASS_NAME" value="dev.dockeray.leetcode.arrays.topKFrequentElements.SolutionTest" />
+      <option name="METHOD_NAME" value="returns_top_three_elements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.handles_one_element" />
+        <item itemvalue="JUnit.SolutionTest.returns_top_three_elements" />
         <item itemvalue="JUnit.SolutionTest.handles_negative_integers" />
         <item itemvalue="JUnit.SolutionTest.returns_top_two_elements" />
-        <item itemvalue="JUnit.SolutionTest$groupAnagrams.groups_anagrams" />
+        <item itemvalue="JUnit.SolutionTest.handles_one_element" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,8 @@
       <workItem from="1682612161199" duration="86000" />
       <workItem from="1682612250163" duration="253000" />
       <workItem from="1682612986289" duration="13714000" />
-      <workItem from="1683014882115" duration="809000" />
+      <workItem from="1683014882115" duration="5617000" />
+      <workItem from="1683048623369" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="ignore idea">
       <created>1682612079226</created>
@@ -242,5 +242,26 @@
     <MESSAGE value="group anagrams" />
     <MESSAGE value="k frequent elements" />
     <option name="LAST_COMMIT_MESSAGE" value="k frequent elements" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/dockeray/leetcode/arrays/topKFrequentElements/SolutionTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/topKFrequentElements/Solution.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dockeray/leetcode/arrays/topKFrequentElements/Solution.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

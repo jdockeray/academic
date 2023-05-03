@@ -1,39 +1,39 @@
 package dev.dockeray.leetcode.arrays.topKFrequentElements;
 
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+import java.util.*;
 
 
 public class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> numsCount = new HashMap<>();
+        Map<Integer, List<Integer>> countNums = new HashMap<>();
+
+        int max = 0;
 
         for(int num: nums){
-            int total = map.getOrDefault(num, 0);
-            map.put(num, ++total);
-        }
-
-        Map<Integer, HashSet<Integer>> buckets = new HashMap<>();
-
-        for(int num: nums){
-           int count =  map.get(num);
-           HashSet<Integer> bucket = buckets.getOrDefault(count, new HashSet<>());
-           bucket.add(num);
-           buckets.put(count, bucket);
-        }
-
-        int count = nums.length;
-        HashSet<Integer> kMostFrequented = new HashSet<Integer>();
-        while (kMostFrequented.size() < k){
-            HashSet<Integer> next = buckets.get(count--);
-            if(next != null){
-                kMostFrequented.addAll(next);
+            int total = numsCount.getOrDefault(num, 0) + 1;
+            numsCount.put(num, total);
+            List<Integer> countBucket = countNums.getOrDefault(total, new ArrayList<>());
+            countBucket.add(num);
+            countNums.put(total, countBucket);
+            if(total > max){
+                max = total;
             }
         }
 
-        return kMostFrequented.stream().mapToInt(i->i).toArray();
+        int nextIdx = 0;
+        int[] kFrequent = new int[k];
+        Set<Integer> frequent = new HashSet<>();
+        for(int i = max; i >= 1; i--){
+            List<Integer> nextHighBucket = countNums.get(i);
+            for(Integer val: nextHighBucket){
+                if(frequent.add(val) && nextIdx < k){
+                    kFrequent[nextIdx++] = val;
+                }
+            }
+
+        }
+        return kFrequent;
     }
 }
